@@ -1,0 +1,28 @@
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* Soft blue gradient */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Clock Styling */
+#clock {
+    font-size: 175px;
+    width: 300px;
+    margin: 0; /* Centered clock */
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4),
+                inset 0px 0px 10px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
